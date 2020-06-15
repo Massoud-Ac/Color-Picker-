@@ -1,0 +1,53 @@
+.app {
+  text-align: center;
+}
+#form-control {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  font-size: 20px;
+}
+table,
+tr,
+td {
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 2px;
+  border-collapse: collapse;
+}
+.row {
+  display: inline;
+}
+tr td {
+  width: 150px;
+  height: 25px;
+}
+.option {
+  margin: auto;
+  padding: 25px;
+  word-spacing: 10px;
+}
+
+.yellow {
+  background-color: #ffff00;
+}
+.red {
+  background-color: #ff0000;
+}
+.green {
+  background-color: #adff2f;
+}
+.blue {
+  background-color: #0000ff;
+}
+.cyan {
+  background-color: #00ffff;
+}
+.khaki {
+  background-color: #f0e68c;
+}
+.purple {
+  background-color: #800080;
+}
