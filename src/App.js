@@ -43,10 +43,10 @@ class App extends Component {
 
     return (
       <div className="app">
-        <select id="form-control" onChange={this.SeletColor}>
+        <select id="form-control" onChange={this.SeletColor} style={{ backgroundColor: `${this.state.background}` }}>
           <option style={{ backgroundColor: "white" }} defaultValue="انتخاب کنید">  انتخاب کنید </option>
           {data.map((node, index) => {
-            return <option key={index} className={node.class} value={node.value}>{node.text}</option>
+            return <option key={index} className={node.class} style={{ backgroundColor: `${node.value}` }} value={node.value}>{node.text}</option>
           })}
         </select>
         <table>
